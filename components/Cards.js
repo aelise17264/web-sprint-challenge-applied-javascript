@@ -41,8 +41,8 @@ let cardContainer = document.querySelector('.cards-container')
 function cardMaker(article){
     const cards = document.createElement('a')
 
-    for(const prop in article){
-        article[prop].forEach((item)=>{
+    for(const index in article){
+        article[index].forEach((item)=>{
             const card = document.createElement('div')
             const writer = document.createElement('div')
             const writerName = document.createElement('span')

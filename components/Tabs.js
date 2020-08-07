@@ -28,16 +28,19 @@ axios.get(lambdaTimes)
 let tabContainer = document.querySelector('.topics')
 
 function tabMaker(item){
-        item.forEach(name => {
-            let tab = document.createElement('span')
-            tab.classList = 'tab'
+     let tabs = document.createElement('a')
+     tabs.classList = 'tabs'
+   
+     item.forEach(name => {
+        let tab = document.createElement('span')
+        tab.classList = 'tab' 
             tab.textContent = name
-            tabContainer.appendChild(tab)
+            tabs.appendChild(tab)
         })
        
    
   
-    return item
+    return tabs
     
 }
 
