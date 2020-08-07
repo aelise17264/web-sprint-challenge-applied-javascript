@@ -27,14 +27,21 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+the DOM is a language neutral API where you can structure & style your content in a tree-structure, it is dynamic and will change in front of you when manipulated
 
 2. What is an event?
+events nontify code when certain things happen so the code can respond accordingly 
 
 3. What is an event listener?
+an event listener is added to a piece of code so that it will react when that action is taken
 
 4. Why would we convert a NodeList into an Array?
+we would convert a NodeList into an array by using slice
+var nodeList = [].slice.call(document.querySelectorAll("div"))
 
 5. What is a component?
+a component is a re-usable set of logic, this allows us to create elements & give them behavior so that we can manipulate the DOM however we want
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
