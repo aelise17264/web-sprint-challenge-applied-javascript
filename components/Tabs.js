@@ -18,8 +18,7 @@ axios.get(lambdaTimes)
     let topic = item.data.topics
     console.log(topic)
     tabContainer.appendChild(tabMaker(topic)) 
-     
-    
+        
 })
 .catch(error => {
     console.log('Error, something went wrong')
